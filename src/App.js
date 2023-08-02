@@ -6,22 +6,18 @@ function App() {
   return (
     <div className="App">
     <Button
-    size='small'
     text='Click here yoy'
     onClick={() => console.log('small button is enter')}
-    />
+    >small</Button>
 
       <Button
-        size='medium'
-        text='Click here yooooyy'
         onClick={() => console.log('medium button is enter')}
-      />
+      >Hack</Button>
 
       <Button
-        size='large'
         text='Click here dude'
         onClick={() => console.log('large button is enter')}
-      />
+      >large</Button>
     </div>
   );
 }
